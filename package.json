@@ -1,5 +1,6 @@
 {
   "name": "chart-example",
+  "homepage": "http://timi-admedo.github.io/chartjs-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +11,7 @@
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
     "date-fns": "^2.13.0",
+    "gh-pages": "^2.2.0",
     "moment": "^2.25.3",
     "moment-range": "^4.0.2",
     "now-ui-dashboard": "^1.0.1",
@@ -21,6 +23,8 @@
     "react-select": "^3.1.0"
   },
   "scripts": {
+    "predeploy": "npm run  build",
+    "deploy": "gh-pages -b build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
