@@ -27,7 +27,18 @@
 .App-link {
   color: #61dafb;
 }
-
+.panel-header-lg {
+  height: 380px;
+}
+.panel{    
+    height: 260px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+    background: #141e30;
+    background: linear-gradient(90deg,#0c2646 0,#204065 60%,#2a5788);
+    position: relative;
+    overflow: hidden;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
