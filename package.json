@@ -12,7 +12,7 @@
     "classnames": "^2.2.6",
     "date-fns": "^2.13.0",
     "gh-pages": "^2.2.0",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "moment-range": "^4.0.2",
     "now-ui-dashboard": "^1.0.1",
     "papaparse": "^5.2.0",
